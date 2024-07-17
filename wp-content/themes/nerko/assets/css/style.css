@@ -90,3 +90,28 @@ gap: 1rem;
       background-position: 0% 50%;
     }
   }
+  .list_body span{
+    display: none;
+  }
+  @media only screen and (max-width: 768px) {
+    ul.list_body{
+        flex-direction: column;
+    }
+    ul.list_header{
+        display: none;
+    }
+    .list_body>li{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .list_body>li:first-child{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .list_body span{
+        display: block;
+      }
+  }
