@@ -435,7 +435,7 @@ input[type=color] {
 }
 .gradient-btn-2 {
   font-size: 18px;
-  padding: 21px 40px;
+  padding: 1rem;
 }
 .gradient-btn:hover::after {
   opacity: 0.85;
@@ -900,6 +900,12 @@ html.show-preloader body {
 @media (max-width: 1199.98px) {
   .tgmenu__action > ul .header-btn {
     display: none;
+  }
+  .tgmobile__menu .tgmenu__action > ul .header-btn {
+    display: block;
+  }
+  .tgmobile__menu .tgmenu__action > ul{
+margin-left: 0px;
   }
 }
 @media (max-width: 991.98px) {
@@ -1613,13 +1619,13 @@ html.show-preloader body {
   }
 }
 @media (max-width: 1500px) {
-  .banner__content .gradient-btn-2 {
+  .banner__content  {
     padding: 18px 32px;
   }
 }
 @media (max-width: 767.98px) {
   .banner__content .gradient-btn-2 {
-    padding: 14px 28px;
+    padding: 1rem;
     font-size: 16px;
   }
 }
@@ -5821,5 +5827,8 @@ div.mint__content .desc {
     opacity: 0.3;
   }
 }
-
+svg {
+  width: 40px;
+  fill: wheat;
+}
 /*# sourceMappingURL=nerko-core.css.map */

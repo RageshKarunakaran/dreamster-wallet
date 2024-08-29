@@ -454,7 +454,7 @@ input[type=color] {
 
 .gradient-btn-2 {
   font-size: 18px;
-  padding: 21px 40px;
+  padding: 1rem
 }
 
 .gradient-btn:hover::after {
@@ -1785,13 +1785,13 @@ html.show-preloader body {
 
 @media (max-width: 1500px) {
   .banner__content .gradient-btn-2 {
-    padding: 18px 32px;
+    padding: 1rem;
   }
 }
 
 @media (max-width: 767.98px) {
   .banner__content .gradient-btn-2 {
-    padding: 14px 28px;
+    padding: 1rem;
     font-size: 16px;
   }
 }
