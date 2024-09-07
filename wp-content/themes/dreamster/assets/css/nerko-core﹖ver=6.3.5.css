@@ -1814,6 +1814,11 @@ margin-left: 0px;
     left: 60% !important;
   }
 }
+.banner__content-two .app img {
+  position: relative !important;
+  width: 200px;
+  height: 80px;
+}
 .banner__content-two img {
   position: absolute;
   -webkit-transition: all 0s ease-out 0s;
